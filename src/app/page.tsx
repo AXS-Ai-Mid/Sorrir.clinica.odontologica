@@ -111,12 +111,14 @@ export default function HomePage() {
             </div>
 
             <h1 className="mt-5 text-[clamp(2rem,5.2vw,3.4rem)] font-extrabold leading-[1.06] text-brand-950">
-              Clínica odontológica na Zona 2, em Maringá
+              O seu sorriso perfeito começa aqui
             </h1>
             <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-ink-soft">
-              Prevenção, estética e reabilitação com diagnóstico honesto, plano por
-              escrito e acompanhamento de verdade. Você sabe o que será feito, quanto
-              custa e em quanto tempo.
+              Prevenção, estética e reabilitação conduzidas por uma equipe
+              multidisciplinar, com tecnologia avançada e atendimento personalizado
+              para resultados incríveis. Diagnóstico honesto, plano por escrito e
+              acompanhamento em cada etapa: você sabe o que será feito, quanto custa
+              e em quanto tempo.
             </p>
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
