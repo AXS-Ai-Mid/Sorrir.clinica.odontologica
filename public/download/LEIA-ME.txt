@@ -1,0 +1,24 @@
+SORRIR CLINICA ODONTOLOGICA - PACOTE DO PROJETO
+===============================================
+
+Arquivo: sorrir-clinica-odontologica.zip
+Conteudo: codigo-fonte completo (Next.js + PostgreSQL/Drizzle), imagens,
+documentacao em /conteudo, guias README.md e GITHUB.md, .env.example.
+
+NAO estao no pacote (por seguranca): .env, node_modules, .next, .git.
+
+COMO USAR
+1. Extraia o ZIP.
+2. Rode: npm install
+3. Copie .env.example para .env e preencha DATABASE_URL e ADMIN_PASSWORD.
+4. Rode: npx drizzle-kit push   (cria a tabela de leads)
+5. Rode: npm run dev            (http://localhost:3000)
+6. Painel de leads: http://localhost:3000/admin
+
+SUBIR NO GITHUB
+Siga o arquivo GITHUB.md (git init, commit, remote, push) e depois importe
+o repositorio na Vercel, cadastrando as variaveis de ambiente.
+
+Antes de publicar em producao: trocar NEXT_PUBLIC_SITE_URL pelo dominio final,
+definir ADMIN_PASSWORD forte e substituir as imagens ilustrativas pelas fotos
+reais da clinica (lista em conteudo/04-materiais-a-solicitar.md).
